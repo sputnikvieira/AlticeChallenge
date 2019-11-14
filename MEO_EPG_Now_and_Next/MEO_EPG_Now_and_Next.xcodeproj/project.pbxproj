@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1669A96C23747DEE00872EBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1669A96B23747DEE00872EBA /* AppDelegate.swift */; };
+		1669A96E23747DEE00872EBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1669A96D23747DEE00872EBA /* SceneDelegate.swift */; };
+		1669A97323747DEE00872EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1669A97123747DEE00872EBA /* Main.storyboard */; };
+		1669A97623747DEE00872EBA /* MEO_EPG_Now_and_Next.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1669A97423747DEE00872EBA /* MEO_EPG_Now_and_Next.xcdatamodeld */; };
+		1669A97823747DEF00872EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1669A97723747DEF00872EBA /* Assets.xcassets */; };
+		1669A97B23747DEF00872EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1669A97923747DEF00872EBA /* LaunchScreen.storyboard */; };
+		1669A98623747DEF00872EBA /* MEO_EPG_Now_and_NextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1669A98523747DEF00872EBA /* MEO_EPG_Now_and_NextTests.swift */; };
+		1669A99323747EAD00872EBA /* ListagemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1669A99223747EAD00872EBA /* ListagemTableViewController.swift */; };
+		16B7856F23797777002F406B /* ChannelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7856E23797777002F406B /* ChannelTableViewCell.swift */; };
+		16B7857123797D19002F406B /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7857023797D19002F406B /* File.swift */; };
+		16B7857323797D98002F406B /* Coonstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7857223797D98002F406B /* Coonstants.swift */; };
+		16B785982379B885002F406B /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B785972379B885002F406B /* Channel.swift */; };
+		16B7859F237A13CF002F406B /* EpgNowAndNext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B7859E237A13CF002F406B /* EpgNowAndNext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1669A98223747DEF00872EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1669A96023747DEE00872EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1669A96723747DEE00872EBA;
+			remoteInfo = MEO_EPG_Now_and_Next;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1669A96823747DEE00872EBA /* MEO_EPG_Now_and_Next.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEO_EPG_Now_and_Next.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1669A96B23747DEE00872EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1669A96D23747DEE00872EBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1669A97223747DEE00872EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1669A97523747DEE00872EBA /* MEO_EPG_Now_and_Next.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MEO_EPG_Now_and_Next.xcdatamodel; sourceTree = "<group>"; };
+		1669A97723747DEF00872EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1669A97A23747DEF00872EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1669A97C23747DEF00872EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1669A98123747DEF00872EBA /* MEO_EPG_Now_and_NextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEO_EPG_Now_and_NextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1669A98523747DEF00872EBA /* MEO_EPG_Now_and_NextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEO_EPG_Now_and_NextTests.swift; sourceTree = "<group>"; };
+		1669A98723747DEF00872EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1669A99223747EAD00872EBA /* ListagemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListagemTableViewController.swift; sourceTree = "<group>"; };
+		16B7856E23797777002F406B /* ChannelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTableViewCell.swift; sourceTree = "<group>"; };
+		16B7857023797D19002F406B /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		16B7857223797D98002F406B /* Coonstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coonstants.swift; sourceTree = "<group>"; };
+		16B785972379B885002F406B /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		16B7859E237A13CF002F406B /* EpgNowAndNext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpgNowAndNext.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1669A96523747DEE00872EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1669A97E23747DEF00872EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1669A95F23747DEE00872EBA = {
+			isa = PBXGroup;
+			children = (
+				1669A96A23747DEE00872EBA /* MEO_EPG_Now_and_Next */,
+				1669A98423747DEF00872EBA /* MEO_EPG_Now_and_NextTests */,
+				1669A96923747DEE00872EBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1669A96923747DEE00872EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1669A96823747DEE00872EBA /* MEO_EPG_Now_and_Next.app */,
+				1669A98123747DEF00872EBA /* MEO_EPG_Now_and_NextTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1669A96A23747DEE00872EBA /* MEO_EPG_Now_and_Next */ = {
+			isa = PBXGroup;
+			children = (
+				167D2AD02376CB0500B08A47 /* Controller */,
+				167D2ACF2376CAF700B08A47 /* View */,
+				167D2ACE2376CAE100B08A47 /* Model */,
+				1669A99423747EC100872EBA /* Request */,
+				1669A96B23747DEE00872EBA /* AppDelegate.swift */,
+				1669A96D23747DEE00872EBA /* SceneDelegate.swift */,
+				1669A97123747DEE00872EBA /* Main.storyboard */,
+				1669A97723747DEF00872EBA /* Assets.xcassets */,
+				1669A97923747DEF00872EBA /* LaunchScreen.storyboard */,
+				1669A97C23747DEF00872EBA /* Info.plist */,
+				1669A97423747DEE00872EBA /* MEO_EPG_Now_and_Next.xcdatamodeld */,
+				16B7857223797D98002F406B /* Coonstants.swift */,
+			);
+			path = MEO_EPG_Now_and_Next;
+			sourceTree = "<group>";
+		};
+		1669A98423747DEF00872EBA /* MEO_EPG_Now_and_NextTests */ = {
+			isa = PBXGroup;
+			children = (
+				1669A98523747DEF00872EBA /* MEO_EPG_Now_and_NextTests.swift */,
+				1669A98723747DEF00872EBA /* Info.plist */,
+			);
+			path = MEO_EPG_Now_and_NextTests;
+			sourceTree = "<group>";
+		};
+		1669A99423747EC100872EBA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				16B7857023797D19002F406B /* File.swift */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		167D2ACE2376CAE100B08A47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16B785972379B885002F406B /* Channel.swift */,
+				16B7859E237A13CF002F406B /* EpgNowAndNext.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		167D2ACF2376CAF700B08A47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16B7856E23797777002F406B /* ChannelTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		167D2AD02376CB0500B08A47 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1669A99223747EAD00872EBA /* ListagemTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1669A96723747DEE00872EBA /* MEO_EPG_Now_and_Next */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1669A98A23747DEF00872EBA /* Build configuration list for PBXNativeTarget "MEO_EPG_Now_and_Next" */;
+			buildPhases = (
+				1669A96423747DEE00872EBA /* Sources */,
+				1669A96523747DEE00872EBA /* Frameworks */,
+				1669A96623747DEE00872EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MEO_EPG_Now_and_Next;
+			productName = MEO_EPG_Now_and_Next;
+			productReference = 1669A96823747DEE00872EBA /* MEO_EPG_Now_and_Next.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1669A98023747DEF00872EBA /* MEO_EPG_Now_and_NextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1669A98D23747DEF00872EBA /* Build configuration list for PBXNativeTarget "MEO_EPG_Now_and_NextTests" */;
+			buildPhases = (
+				1669A97D23747DEF00872EBA /* Sources */,
+				1669A97E23747DEF00872EBA /* Frameworks */,
+				1669A97F23747DEF00872EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1669A98323747DEF00872EBA /* PBXTargetDependency */,
+			);
+			name = MEO_EPG_Now_and_NextTests;
+			productName = MEO_EPG_Now_and_NextTests;
+			productReference = 1669A98123747DEF00872EBA /* MEO_EPG_Now_and_NextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1669A96023747DEE00872EBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = alticeLabs;
+				TargetAttributes = {
+					1669A96723747DEE00872EBA = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					1669A98023747DEF00872EBA = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 1669A96723747DEE00872EBA;
+					};
+				};
+			};
+			buildConfigurationList = 1669A96323747DEE00872EBA /* Build configuration list for PBXProject "MEO_EPG_Now_and_Next" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1669A95F23747DEE00872EBA;
+			productRefGroup = 1669A96923747DEE00872EBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1669A96723747DEE00872EBA /* MEO_EPG_Now_and_Next */,
+				1669A98023747DEF00872EBA /* MEO_EPG_Now_and_NextTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1669A96623747DEE00872EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1669A97B23747DEF00872EBA /* LaunchScreen.storyboard in Resources */,
+				1669A97823747DEF00872EBA /* Assets.xcassets in Resources */,
+				1669A97323747DEE00872EBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1669A97F23747DEF00872EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1669A96423747DEE00872EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1669A97623747DEE00872EBA /* MEO_EPG_Now_and_Next.xcdatamodeld in Sources */,
+				16B785982379B885002F406B /* Channel.swift in Sources */,
+				16B7857323797D98002F406B /* Coonstants.swift in Sources */,
+				16B7857123797D19002F406B /* File.swift in Sources */,
+				1669A96C23747DEE00872EBA /* AppDelegate.swift in Sources */,
+				1669A96E23747DEE00872EBA /* SceneDelegate.swift in Sources */,
+				1669A99323747EAD00872EBA /* ListagemTableViewController.swift in Sources */,
+				16B7859F237A13CF002F406B /* EpgNowAndNext.swift in Sources */,
+				16B7856F23797777002F406B /* ChannelTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1669A97D23747DEF00872EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1669A98623747DEF00872EBA /* MEO_EPG_Now_and_NextTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1669A98323747DEF00872EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1669A96723747DEE00872EBA /* MEO_EPG_Now_and_Next */;
+			targetProxy = 1669A98223747DEF00872EBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1669A97123747DEE00872EBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1669A97223747DEE00872EBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1669A97923747DEF00872EBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1669A97A23747DEF00872EBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1669A98823747DEF00872EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1669A98923747DEF00872EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1669A98B23747DEF00872EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QNX593R8F;
+				INFOPLIST_FILE = MEO_EPG_Now_and_Next/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alticeLabs.MEO-EPG-Now-and-Next";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1669A98C23747DEF00872EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QNX593R8F;
+				INFOPLIST_FILE = MEO_EPG_Now_and_Next/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alticeLabs.MEO-EPG-Now-and-Next";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1669A98E23747DEF00872EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QNX593R8F;
+				INFOPLIST_FILE = MEO_EPG_Now_and_NextTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alticeLabs.MEO-EPG-Now-and-NextTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEO_EPG_Now_and_Next.app/MEO_EPG_Now_and_Next";
+			};
+			name = Debug;
+		};
+		1669A98F23747DEF00872EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QNX593R8F;
+				INFOPLIST_FILE = MEO_EPG_Now_and_NextTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alticeLabs.MEO-EPG-Now-and-NextTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEO_EPG_Now_and_Next.app/MEO_EPG_Now_and_Next";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1669A96323747DEE00872EBA /* Build configuration list for PBXProject "MEO_EPG_Now_and_Next" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1669A98823747DEF00872EBA /* Debug */,
+				1669A98923747DEF00872EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1669A98A23747DEF00872EBA /* Build configuration list for PBXNativeTarget "MEO_EPG_Now_and_Next" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1669A98B23747DEF00872EBA /* Debug */,
+				1669A98C23747DEF00872EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1669A98D23747DEF00872EBA /* Build configuration list for PBXNativeTarget "MEO_EPG_Now_and_NextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1669A98E23747DEF00872EBA /* Debug */,
+				1669A98F23747DEF00872EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1669A97423747DEE00872EBA /* MEO_EPG_Now_and_Next.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1669A97523747DEE00872EBA /* MEO_EPG_Now_and_Next.xcdatamodel */,
+			);
+			currentVersion = 1669A97523747DEE00872EBA /* MEO_EPG_Now_and_Next.xcdatamodel */;
+			path = MEO_EPG_Now_and_Next.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1669A96023747DEE00872EBA /* Project object */;
+}
