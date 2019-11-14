@@ -11,7 +11,7 @@ import UIKit
 class ChannelTableViewCell: UITableViewCell {
 
     
-    @IBOutlet weak var channelImg: UIImageView!
+//    @IBOutlet weak var channelImg: UIImageView!
     
     @IBOutlet weak var channelTitle: UILabel!
     
@@ -21,10 +21,6 @@ class ChannelTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-    }
-
-    func configuer(chanel: Channel){
-        
     }
 
 }

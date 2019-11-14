@@ -16,7 +16,7 @@ struct ConstantsStruct {
     static let epgChannel2 = "%27&$orderby=StartDate%20asc"
     static let reuseIdentifier = "cellChannel"
     
-    static let imgUrl = "https://proxycache.app.iptv.telecom.pt:8080/eemstb/ImageHandler.ashx?evTitle="
+    static let imgUrl = "http://proxycache.app.iptv.telecom.pt:8080/eemstb/ImageHandler.ashx?evTitle="
     static let imgUrl2 = "&chCallLetter="
     static let imgUrl3 = "&profile=16_9&width=320"
     }

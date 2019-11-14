@@ -7,49 +7,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "98BCF8D2-C06E-4500-B104-4916B77E1FFE"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MEO_EPG_Now_and_Next/File.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
-            landmarkName = "fetchImg(url:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3DBF637F-934E-4DE1-B756-391E75A1F482"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MEO_EPG_Now_and_Next/File.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
-            landmarkName = "fetchImg(url:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "18453AF1-144D-4061-B5AC-63B7953BEF06"
-            shouldBeEnabled = "Yes"
+            uuid = "098F0652-647E-4B4E-9760-57F97076AD9D"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MEO_EPG_Now_and_Next/ListagemTableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
-            landmarkName = "fetchImg(formattedString:callLetter:)"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "fetchEpg(callLetter:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "098F0652-647E-4B4E-9760-57F97076AD9D - b1aa5d9ab7e31f7d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MEO_EPG_Now_and_Next.ListagemTableViewController.(fetchEpg in _C2B13BD9403FDF9BC4D65D101F420944)(callLetter: Swift.String) -&gt; ()"
+                  moduleName = "MEO_EPG_Now_and_Next"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albertinovieira/Desktop/AlticeChallenge/MEO_EPG_Now_and_Next/MEO_EPG_Now_and_Next/ListagemTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "410">
+               </Location>
+               <Location
+                  uuid = "098F0652-647E-4B4E-9760-57F97076AD9D - bde0ebc85457de0c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MEO_EPG_Now_and_Next.EpgNowAndNext) -&gt; () in MEO_EPG_Now_and_Next.ListagemTableViewController.(fetchEpg in _C2B13BD9403FDF9BC4D65D101F420944)(callLetter: Swift.String) -&gt; ()"
+                  moduleName = "MEO_EPG_Now_and_Next"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albertinovieira/Desktop/AlticeChallenge/MEO_EPG_Now_and_Next/MEO_EPG_Now_and_Next/ListagemTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "220">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

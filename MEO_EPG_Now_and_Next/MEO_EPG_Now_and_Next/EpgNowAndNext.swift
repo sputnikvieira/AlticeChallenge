@@ -11,7 +11,7 @@ import Foundation
 
 struct EpgNowAndNext {
     var nowShow: String
-    var tittleForImageNowShow: String
+    var callLetter :String
     var nextShow: String
 
 }

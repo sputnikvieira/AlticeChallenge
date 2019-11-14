@@ -49,16 +49,14 @@ public class CommonHandler {
             do{
                 let jsonResponse = try JSONSerialization.jsonObject(with:
                     data, options: []) as! [String : Any]
-                if var arrayOfValues = jsonResponse["value"] as? [[String: Any]]{
-                    if arrayOfValues.count > 0 {
+                if let arrayOfValues = jsonResponse["value"] as? [[String: Any]]{
+                    if arrayOfValues.count > 1 {
                         let nowShow = arrayOfValues[0]["Title"] as! String
                         let finalShow = arrayOfValues[1]["Title"] as! String
-                        if nowShow != nil && finalShow != nil{
-                            epgNowAndNext = EpgNowAndNext(nowShow: nowShow, tittleForImageNowShow: "", nextShow: finalShow)
-                        }
+                        epgNowAndNext = EpgNowAndNext(nowShow: nowShow, callLetter: arrayOfValues[0]["CallLetter"] as! String, nextShow: finalShow)
                         
                     }else{
-                        epgNowAndNext = EpgNowAndNext(nowShow: "", tittleForImageNowShow: "", nextShow: "")
+                        epgNowAndNext = EpgNowAndNext(nowShow: "No show", callLetter : "", nextShow: "No show")
                         
                     }
                 }
@@ -72,25 +70,25 @@ public class CommonHandler {
         task.resume()
     }
     
-    
-    func fetchImg(url: String ,completion: @escaping (NSData) -> Void){
-        guard let url = URL(string: url) else { return }
-        let task = URLSession.shared.dataTask(with: url) {(data, response, error) in
-            guard let data = data else { return }
-            
-            do{
-                print(data)
-                let jsonResponse = try JSONSerialization.jsonObject(with:
-                    data, options: []) as! [String : Any]
-                print(data)
-                completion(data as NSData)
-            } catch let parsingError {
-                print("Error", parsingError)
-            }
-            
-        }
-        
-        task.resume()
-    }
-    
+    /*
+     func fetchImg(url: String ,completion: @escaping (NSData) -> Void){
+     guard let url = URL(string: url) else { return }
+     let task = URLSession.shared.dataTask(with: url) {(data, response, error) in
+     guard let data = data else { return }
+     
+     do{
+     print(data)
+     let jsonResponse = try JSONSerialization.jsonObject(with:
+     data, options: []) as! [String : Any]
+     print(data)
+     completion(data as NSData)
+     } catch let parsingError {
+     print("Error", parsingError)
+     }
+     
+     }
+     
+     task.resume()
+     }
+     */
 }
